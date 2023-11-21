@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 0
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 0900000014000000
+  lastScan: 638358170553999250
+  supportSerializedTypes:
+  - TypeName: Game.Customizations.CustomizationSlotDataScriptable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Customizations.CustomizationSlotDataScriptable,
+      Assembly-CSharp],[System.Collections.Generic.HashSet`1[[UnityEngine.Object,
+      UnityEngine.CoreModule]], System.Core]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Customizations.ICustomizationOwner,
+      Assembly-CSharp],[Game.Customizations.ItemData.ItemCustomizationDataScriptable,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Game.Upgrades.UpgradeDataScriptable,
+      Assembly-CSharp],[System.Int32, mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.BaseSettings.FrameRate, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.HashSet`1[[UnityEngine.Object, UnityEngine.CoreModule]],
+      System.Core
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.IBaseSettings, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Settings.IBaseSettings[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Customizations.ICustomizationOwner, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Data.IDataField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Game.Customizations.CustomizationSlotDataScriptable,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Game.Customizations.ICustomizationOwner,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Customizations.ItemData.ItemCustomizationDataScriptable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Game.Data.IDataField, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.LoadingDataScriptable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Object, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[Game.Customizations.CustomizationSlotDataScriptable,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[Game.Customizations.ICustomizationOwner,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Loadings.UI.UILoadingScreen, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Game.Upgrades.UpgradeDataScriptable, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
